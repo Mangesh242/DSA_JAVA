@@ -11,6 +11,7 @@ public class NearestSmallerLeft {
         System.out.println(Arrays.toString(NSELI(arr)));
     }
 
+    //Maintain Index
     static int[] NSELI(int[] arr){
         Stack<Integer> st=new Stack<>();
         int[] res=new int[arr.length];
@@ -33,7 +34,7 @@ public class NearestSmallerLeft {
 
         
     }
-
+//Maintain Min val
     static int[] NSEL(int[] arr){
         Stack<Integer> st=new Stack<>();
         int[] res=new int[arr.length];
@@ -52,8 +53,6 @@ public class NearestSmallerLeft {
             st.push(arr[i]);
         }
 
-        return res;
-
-        
+        return res;   
     }
 }
