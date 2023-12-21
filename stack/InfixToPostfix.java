@@ -64,7 +64,7 @@ public class InfixToPostfix {
 
         public static void main(String[] args) {
             String input="(a+b)*c";
-            String input2="(a*b*c)/((f*g)-d)";
+            // String input2="(a*b*c)/((f*g)-d)";
 
             InfixToPostfix obj=new InfixToPostfix();
             System.out.println(obj.solve(input));
