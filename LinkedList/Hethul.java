@@ -2,7 +2,7 @@ package LinkedList;
 
 public class Hethul {
 
-    xyz;
+    // xyz;
     //footer
     
 }
