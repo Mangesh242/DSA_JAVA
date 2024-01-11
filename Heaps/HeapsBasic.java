@@ -46,8 +46,9 @@ public class HeapsBasic {
             }
         }
     }
+    
     void removeMin(ArrayList<Integer> heap){
-        int temp=heap.get(0);
+        // int temp=heap.get(0);
         heap.set(0,heap.get(heap.size()-1));
         heap.set(heap.size()-1,Integer.MAX_VALUE);
 
