@@ -1,4 +1,4 @@
-package tree.BST;
+package tree;
 import java.util.ArrayList;
 public class MIT {
        public ArrayList<Integer> solve(TreeNode A) {
