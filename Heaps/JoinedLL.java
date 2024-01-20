@@ -17,7 +17,7 @@ public class JoinedLL {
     }
 
     public ListNode mergeKLists(ArrayList<ListNode> a) {
-        PriorityQueue<ListNode> pq = new PriorityQueue(10, new ListNodeComparator());
+        PriorityQueue<ListNode> pq = new PriorityQueue<>();
         for (int i = 0; i < a.size(); i++) {
             pq.add(a.get(i));
         }
